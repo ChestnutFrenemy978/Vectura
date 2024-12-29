@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing App</title>
+</head>
+<body>
+    <h1>Обработка и генерация изображений</h1>
+
+    <h2>Загрузить изображение для обработки</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Загрузить</button>
+    </form>
+
+    <h2>Сгенерировать изображение по описанию</h2>
+    <form action="/generate" method="post">
+        <textarea name="prompt" placeholder="Введите описание изображения" required></textarea><br>
+        <button type="submit">Сгенерировать</button>
+    </form>
+</body>
+</html>

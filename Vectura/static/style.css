@@ -1,0 +1,27 @@
+/* Общие стили */
+body {
+    background-color: #7C4EFF; /* Фиолетовый фон */
+    color: #C8FF92; /* Салатовый текст */
+    font-family: "Benzin Semibold", sans-serif; /* Подключённый шрифт */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Заголовок */
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Подзаголовок */
+p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
